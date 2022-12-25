@@ -39,7 +39,7 @@
 
     <link rel="stylesheet" href="Project.css">
 
-    <link rel="stylesheet" href="project.js">
+    
 
     <meta name="author" content="YASH DIXIT" />
     <meta name="description" content="This is a website for personal." />
@@ -91,7 +91,7 @@
         <a>PORTFOLIO &#169; 2022</a>
         <div class="collapse navbar-collapse " id="my-navbar">
             <ul class="navbar-nav mx-auto p-2">
-                <li><a class="mx-2" href="Personalwebsite.html">Home</a></li>
+                <li><a class="mx-2" href="index.html">Home</a></li>
                 <li><a class="mx-2" href="#about">About</a></li>
                 <li><a class="mx-2" href="project.html">Project</a></li>
                 <li><a class="mx-2" href="" data-toggle="modal" data-target="#myModal">Contact me</a></li>
@@ -504,8 +504,8 @@
                     alt=""></a>
             <a href="css img/food3.png" data-toggle="lightbox" data-gallery="my-gallery"><img src="css img/food3.png"
                     alt=""></a> <br>
-            
-                   <h4> <a href="food web design/food.html">Go to website link</a></h4>
+
+            <h4> <a href="food web design/food.html">Go to website link</a></h4>
 
         </div>
     </section>
@@ -574,17 +574,17 @@
 
 
                     <a href="https://replit.com/~" target="_blank"><img src="image/replit_logo_icon_170784.png"
-                        alt="not found Images" height="30px"></a>
+                            alt="not found Images" height="30px"></a>
 
-                <a href="https://www.linkedin.com/feed/" target="_blank"><img
-                        src="https://cdn.icon-icons.com/icons2/805/PNG/96/linkedin_icon-icons.com_65929.png"
-                        alt="not found Images" height="30px"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="image/ig.png" alt="not found Images"
-                        height="30px"></a>
-                <a href="https://www.facebook.com/" target="_blank"><img src="image/fb.png" alt="not found Images"
-                        height="30px"></a>
-                <a href="https://github.com/" target="_blank"><img src="image/github.svg" alt="not found Images"
-                        height="30px"></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><img
+                            src="https://cdn.icon-icons.com/icons2/805/PNG/96/linkedin_icon-icons.com_65929.png"
+                            alt="not found Images" height="30px"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="image/ig.png" alt="not found Images"
+                            height="30px"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="image/fb.png" alt="not found Images"
+                            height="30px"></a>
+                    <a href="https://github.com/" target="_blank"><img src="image/github.svg" alt="not found Images"
+                            height="30px"></a>
 
 
 
@@ -636,7 +636,40 @@
         </div>
     </footer>
 
-
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-secondary text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Contect me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="google-sheet">
+                        <input name="Name" class="form-control" type="text" pattern="[a-zA-Z ]+" maxlength="50"
+                            placeholder="Your Name" required />
+                        <br>
+                        <input name="Phone" class="form-control" type="tel" pattern="[0-9 ]+" maxlength="10"
+                            minlength="10" placeholder="Your Phone" required />
+                        <br>
+                        <input name="Gmail" type="email" placeholder="Enter your email" class="form-control" value=""
+                            required />
+                        <br>
+                        <input name="suggestion" class="form-control" type="text" pattern="[a-zA-Z ]+" maxlength="60"
+                            placeholder="Entre suggestion" />
+                        <br>
+                        <input name="Message " class="form-control" type="text" pattern="[a-zA-Z ]+" maxlength="40"
+                            placeholder="Message" />
+                        <br>
+                        <button class="btn btn-dark"> Hire me </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
 </body>
 <script>
 
