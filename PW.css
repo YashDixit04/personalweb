@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 
 
@@ -49,14 +48,14 @@ h2,
 h4,
 h6 {
   color: black;
- 
+
   font-family: 'Playfair Display', serif;
 
 }
 
 h1,
 h2 {
- 
+
   background: rgba(207, 89, 10, 0.988);
   background-size: 300%;
   font-weight: 900;
@@ -203,20 +202,21 @@ nav a:hover {
   filter: blur(60px);
   opacity: 0;
 }
-.li:nth-child(1){
+
+.li:nth-child(1) {
   margin-top: 40px;
 }
 
-.li:nth-child(1) :hover{
+.li:nth-child(1) :hover {
   animation-delay: 0.1s;
 }
 
-.li:nth-child(3):hover  {
+.li:nth-child(3):hover {
   animation-delay: 0.1s;
 }
 
 
-.li:nth-child(4):hover  {
+.li:nth-child(4):hover {
   transform: rotateY(360deg);
 }
 
@@ -535,9 +535,9 @@ nav a:hover {
 }
 
 ul img {
-  border-radius: 50%;
-  max-width: 40rem;
-  margin-top: 30px;
+  border-radius: 70%;
+  max-width: 60%;
+  margin-top: 5%;
 }
 
 #box {
@@ -594,7 +594,7 @@ section #intro p {
   padding-right: 60px;
   border: none;
   height: 70px;
-  
+
 }
 
 .hire button:hover {
@@ -670,10 +670,10 @@ section .container img {
   display: inline-block;
   height: 260px;
   padding: 10px;
-  margin-right: 20px;
+
 }
 
-section .col img {
+ul img {
   display: inline-block;
   height: 260px;
   padding: 10px;
@@ -761,10 +761,10 @@ section #border {
   justify-content: center;
   box-shadow:
     inset 4px 4px 6px -1px #cb997e,
-    inset -4px -4px 6px -1px  #cb997e,
-    -0.5px -0.5px 0px  #cb997e,
-    0.5px 0.5px 0px  #cb997e,
-    0px 12px 10px -10px  #cb997e;
+    inset -4px -4px 6px -1px #cb997e,
+    -0.5px -0.5px 0px #cb997e,
+    0.5px 0.5px 0px #cb997e,
+    0px 12px 10px -10px #cb997e;
 }
 
 
@@ -890,10 +890,10 @@ svg {
 
 
 #hobbies {
-  background:  transparent #ffe8d6;
+  background: transparent #ffe8d6;
   box-shadow: 1 20px 44px 0 #cb997e;
   backdrop-filter: blur(4px);
-  border: 2px solid #ffe8d6 ;
+  border: 2px solid #ffe8d6;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -959,4 +959,52 @@ footer #base {
 .help p>a {
   color: #000;
   text-decoration: none;
+}
+
+
+@media (max-width: 991px) {
+
+  ul img {
+    border-radius: 79%;
+    max-width: 104%;
+    margin-top: 5%;
+    margin-left: 0px;
+  }
+
+
+
+}
+
+@media(max-width: 768px) {
+
+  ul img {
+    border-radius: 79%;
+    max-width: 104%;
+    margin-top: 5%;
+    margin-left: 0px;
+  }
+
+}
+
+@media(max-width:480px) {
+
+  .hire button {
+    margin: 10px;
+
+  }
+
+  ul img {
+    border-radius: 79%;
+    max-width: 104%;
+    margin-top: 5%;
+    margin-left: 0px;
+  }
+
+  section #intro {
+
+    margin-top: 2px;
+    border-bottom-left-radius: 60px;
+
+  }
+
 }
